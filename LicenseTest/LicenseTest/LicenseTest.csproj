@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ILicense.cs" />
+    <Compile Include="Interfaces\ILicenseBusiness.cs" />
+    <Compile Include="Interfaces\ILicensePro.cs" />
+    <Compile Include="Licenses\Business.cs" />
+    <Compile Include="Licenses\Pro.cs" />
+    <Compile Include="Permissions\Executer.cs" />
+    <Compile Include="Permissions\Permisson.cs" />
+    <Compile Include="Permissions\PermissonDynamic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
